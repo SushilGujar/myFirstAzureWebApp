@@ -63,7 +63,7 @@ namespace myFirstAzureWebApp
 
             app.UseStaticFiles();
 
-            app.UseAuthentication();
+            //app.UseAuthentication();
 
             app.UseMvc();
         }
